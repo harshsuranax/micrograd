@@ -1,6 +1,6 @@
 **micrograd (notebook)**
 
-A tiny automatic differentiation engine and toy neural-network library implemented from scratch in Python - following Andrej Karpathy’s micrograd. This notebook builds a scalar-valued computation graph, performs reverse-mode autodiff (backpropagation), and uses it to train small multilayer perceptrons (MLPs).
+A tiny automatic differentiation engine and toy neural-network library implemented from scratch in Python. This notebook builds a scalar-valued computation graph, performs reverse-mode autodiff (backpropagation), and uses it to train small multilayer perceptrons (MLPs).
 
 **Why this exists:** to demystify backprop by implementing it line-by-line, without heavy frameworks. Perfect for learning, tinkering, and teaching.
 
@@ -13,3 +13,7 @@ A tiny automatic differentiation engine and toy neural-network library implement
 - Computation graph recording parents and local backward closures.
 - Neural nets: Neuron, Layer, MLP with Tanh and exp activations.
 - All in one notebook for easy reading and step-through debugging.
+
+**References:**
+
+[Andrej Karpathy's micrograd](https://github.com/karpathy/micrograd)
